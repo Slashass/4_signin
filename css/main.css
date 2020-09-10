@@ -98,13 +98,15 @@ body {
             background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%);
             background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%);
             background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
-
             color: #fff;
             padding-right: 50px;
             padding-left: 50px;
             border-radius: 30px;
-        }
+             }
+             .btn:hover {
+                cursor: pointer;
+                color: lightblue;
+    }     
         .form-row > span {
             margin-left: 20px;
         }
