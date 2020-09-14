@@ -69,30 +69,17 @@ body {
             top: 0;
             right: 0;
         }
-            .x::after,
-            .x::before {
-                display: inline-block;
-                width: 30px;
-                height: 2px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%) rotate(45deg);
-            }
-            .x::after {
-                transform: translate(-50%, -50%) rotate(-45deg);
-            }
-            .close {
-                cursor: pointer;
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                padding: 10px 18px;
-                font-weight: bold;
-                font-size: 23px;
-                border: 3px solid rgba(211, 211, 211, 0.562);
-                border-radius: 30px;
-            }
+        .close {
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 18px;
+            font-weight: bold;
+            font-size: 23px;
+            border: 3px solid rgba(211, 211, 211, 0.562);
+            border-radius: 30px;
+        }
         .btn,
         .form-row > span,
         .form-row > a {
@@ -106,7 +93,7 @@ body {
             background: #1e5799;
             background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%);
             background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%);
-            background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%);
+            background: linear-gradient(right,  #1e5799 0%,#7db9e8 100%);
             color: #fff;
             padding-right: 50px;
             padding-left: 50px;
