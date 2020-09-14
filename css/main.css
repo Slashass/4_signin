@@ -41,6 +41,7 @@ body {
             font-weight: bold;
             text-align: center;
             margin-right: 20px;
+            color: #0ADE83;
         }
         footer {
             position: absolute;
@@ -89,7 +90,7 @@ body {
                 padding: 10px 18px;
                 font-weight: bold;
                 font-size: 23px;
-                border: 3px solid lightgray;
+                border: 3px solid rgba(211, 211, 211, 0.562);
                 border-radius: 30px;
             }
         .btn,
